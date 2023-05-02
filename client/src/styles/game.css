@@ -1,0 +1,157 @@
+/* @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"; */
+/* @import "react-alice-carousel/lib/alice-carousel.css"; */
+.gamepage {
+  margin-bottom: 20px;
+}
+
+#game_name {
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+
+#game_pic {
+  margin: auto;
+  height: 50vh;
+  width: 70vw;
+  height: 70vh;
+  object-fit: cover;
+}
+
+.gamepage .swiper {
+  width: 75%;
+  height: 75%;
+}
+
+.gamepage .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gamepage .swiper-slide img {
+  display: block;
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+
+#description_headings {
+  color: #fff;
+  text-decoration: underline;
+  font-size: x-large;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 1vh;
+  padding-top: 10px;
+}
+
+#detail_headings {
+  color: #fff;
+  text-decoration: underline;
+  font-size: x-large;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 1vh;
+  padding-top: 10px;
+}
+
+#rating_headings {
+  color: #fff;
+  text-decoration: underline;
+  font-size: x-large;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 1vh;
+  padding-top: 10px;
+}
+
+#game_description {
+  color: #fff;
+  text-align: left;
+  width: 75vw;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.gamepage #details {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.detail {
+  color: #fff;
+  text-align: left;
+  width: 75vw;
+  padding: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: 1px;
+  font-weight: bolder;
+}
+
+#legend {
+  color: black;
+  text-align: left;
+  width: 75vw;
+  padding: 5px;
+  margin: 1px;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.list {
+  display: inline;
+  font-weight: normal;
+  margin: 1px;
+  padding-bottom: 1px;
+}
+
+#update-game .field {
+  text-align: left;
+}
+
+#update-game #unfavourite {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#update-game {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+#rating-bar {
+  width: 100vw;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+#spinner>.lds-circle>div {
+  height: 20px;
+  width: 20px;
+}
+
+.my-box {
+  margin-top: 1vh;
+  width: 75vw;
+  padding: 2vh;
+  border-radius: 1vh;
+  background-color: #363636;
+  box-shadow: 0 10px 10px rgb(0 0 0 / 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

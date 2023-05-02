@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap');
+
+#root {
+  max-width: 100%;
+  min-height: 100vh;
+  margin: 0 0;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+  min-height: 100vh;
+}
+
+.games-display {
+  padding: 10px;
+  margin-bottom: 10px;
+  display: grid;
+  justify-content: center;
+  min-height: 75vh;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.games-display li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  height: 23.5vh;
+  background-size: cover;
+  position: relative;
+  border-radius: 10px;
+  z-index: 0;
+  color: white;
+}
+
+.games-display li:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  top: -4px;
+}
+
+.games-display li h1 {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: 'Oswald', sans-serif;
+}
+
+.games-display>.lds-circle,
+.games-display>.no-results {
+  align-self: center;
+  position: relative;
+  left: 102%
+}

@@ -1,0 +1,75 @@
+#avatar {
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    /* Colors */
+    background-color: #d1d5db;
+    color: #fff;
+
+    /* Rounded border */
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+
+    font-size: 50px;
+}
+
+#profile .games-display li {
+    pointer-events: none;
+}
+
+#profile .hero-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#profile .hero {
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+}
+
+.reviews-display {
+    display: grid;
+    grid-template: 1fr;
+}
+
+
+
+.reviews-display #no-game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    height: 23.5vh;
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+    z-index: 0;
+    color: white;
+}
+
+#FavChart {
+    margin-bottom: 20px;
+}
+
+#review .field {
+    text-align: left;
+}
+
+#profile #review {
+    width: 90vw;
+    margin-left: 67px;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #363636;
+    box-shadow: 0 10px 10px rgb(0 0 0 / 0.5);
+
+}

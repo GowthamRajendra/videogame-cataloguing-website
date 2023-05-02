@@ -1,0 +1,33 @@
+#login,
+#signup {
+    width: 400px;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #363636;
+    box-shadow: 0 10px 10px rgb(0 0 0 / 0.5);
+}
+
+#login .showPassword,
+#signup .showPassword {
+    cursor: pointer;
+    pointer-events: auto !important;
+}
+
+label {
+    color: white !important;
+    text-align: left;
+}
+
+h1 {
+    font-size: xx-large !important;
+    color: white;
+}
+
+.help {
+    font-size: medium !important;
+}
+
+.login-button {
+    margin-top: 10px !important;
+}
