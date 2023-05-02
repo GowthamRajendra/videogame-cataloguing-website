@@ -23,8 +23,7 @@ Step 3: Sign up for RAWG API key.<br>
 Step 4: Create .env file in the server folder and put MongoDB Atlas database URL and the API key inside.<br>
 Step 5: Open two terminals to run the server and client concurrently.<br>
 Step 6: On the first terminal, enter the server folder and run `nodemon` to start the server.<br>
-Step 7: On the second terminal, enter the client folder and run `npm run dev` to run the client side.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Step 7: On the second terminal, enter the client folder and run `npm run dev` to run the client side. 
 Alternatively, on the client side, run `npm run build` followed by `npm run preview` to run the production version.<br>
 
 ## Login/Signup Page
