@@ -17,13 +17,13 @@
 ## How to Run
 Requirement: You need to have the npm package manager installed and NodeJS for the server. Preferably nodemon should be installed to make running the NodeJS server easier.
 
-Step 1: On a terminal, do npm install inside both server and client folders to get all the neccessary packages to run the project.<br>
-Step 2: Make a MongoDB Atlas account, create a cluster and database.<br>
-Step 3: Sign up for RAWG API key.<br>
-Step 4: Create .env file in the server folder and put MongoDB Atlas database URL and the API key inside.<br>
-Step 5: Open two terminals to run the server and client concurrently.<br>
-Step 6: On the first terminal, enter the server folder and run `nodemon` to start the server.<br>
-Step 7: On the second terminal, enter the client folder and run `npm run dev` to run the client side. 
+1. On a terminal, do npm install inside both server and client folders to get all the neccessary packages to run the project.<br>
+2. Make a MongoDB Atlas account, create a cluster and database.<br>
+3. Sign up for RAWG API key.<br>
+4. Create .env file in the server folder and put MongoDB Atlas database URL and the API key inside.<br>
+5. Open two terminals to run the server and client concurrently.<br>
+6. On the first terminal, enter the server folder and run `nodemon` to start the server.<br>
+7. On the second terminal, enter the client folder and run `npm run dev` to run the client side. 
 Alternatively, on the client side, run `npm run build` followed by `npm run preview` to run the production version.<br>
 
 ## Login/Signup Page
