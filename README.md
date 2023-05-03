@@ -15,7 +15,7 @@
 - [Citations](#citations)
 
 ## How to Run
-Requirement: You need to have the npm package manager installed and NodeJS for the server. Preferably nodemon should be installed to make running the NodeJS server easier.
+Requirement: You need to have the npm package manager installed and Node.js for the server. Preferably nodemon should be installed to make running the Node.js server easier.
 
 1. On a terminal, do npm install inside both server and client folders to get all the neccessary packages to run the project.<br>
 2. Make a MongoDB Atlas account, create a cluster and database.<br>
